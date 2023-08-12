@@ -223,7 +223,7 @@ Cart
 ===============
 */
 .cart {
-  width: 80%;
+  width: 90%;
   justify-content: center;
   margin-left: 150px;
   max-width: var(--fixed-width);
@@ -295,7 +295,7 @@ Cart Item
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  grid-column-gap: -2.5rem;
+  grid-column-gap: -1.5rem;
   height: 200px;
 
 }
@@ -305,21 +305,21 @@ header {
 }
 
 .cart-item img {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   object-fit: cover;
 }
 .cart-item h4 {
   margin-bottom: 0.8rem;
   font-weight: 500;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
  
 }
 
 .add-btn {
   background: orange;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 20px;
   color: white;
   padding: 5px 10px;
