@@ -33,6 +33,7 @@ function NavComponent() {
 
           <Nav className="d-flex">
             <Nav.Link ><Link to='/' style={{color:"white", fontSize: "22px", textDecoration: 'none'}}>Home</Link></Nav.Link>
+            <Nav.Link ><Link to='/products' style={{color:"white", fontSize: "22px", textDecoration: 'none'}}>Products</Link></Nav.Link>
             <Nav.Link href="#contact" style={{color:"white", fontSize: "22px"}} >Contact</Nav.Link>
             <Nav.Link ><Link to='/cart' style={{color:"white", fontSize: "22px", textDecoration: 'none'}}>
               <ShoppingCartIcon style={{ fontSize: '30px' }} />
