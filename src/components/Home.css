@@ -8,13 +8,13 @@
     flex-direction: column;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 40%;
     padding: 5px 10px;
     transform: translate(-50%, -50%);
     color: white;
     background: black;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: start;
 }
 
@@ -22,7 +22,7 @@
     font-size: 20px;
     padding: 5px 5px;
     border-radius: 20px;
-    width: 60%;
+    width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgb(236, 121, 27); 
