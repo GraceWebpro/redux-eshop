@@ -8,6 +8,7 @@ import ProductContainer from './product/ProductContainer'
 import ShoeContainer from './shoe/ShoeContainer'
 import ContactForm from './Contact'
 
+//import aod for effect
 import AOS from "aos";
 import "aos/dist/aos.css";
 
