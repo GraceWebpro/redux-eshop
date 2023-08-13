@@ -1,11 +1,14 @@
 import React from 'react'
 import { addToCart } from '../cart/cartSlice'
 import { useDispatch } from 'react-redux'
+//import { useGetProductsQuery } from '../features/apiSlice'
+
 
 function ProductCard({ id, title, price, img, rating, number }) {
 
     const dispatch = useDispatch();
 
+    
     return (
         <article className='cart-item'>
             <img src={img} alt={title} className="product__image" />
@@ -25,3 +28,5 @@ function ProductCard({ id, title, price, img, rating, number }) {
 }
 
 export default ProductCard;
+
+

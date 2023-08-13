@@ -6,6 +6,7 @@ import Leaf from '../assets/leaf.jpg'
 import Flower from '../assets/flower.jpg'
 import ProductContainer from './product/ProductContainer'
 import ShoeContainer from './shoe/ShoeContainer'
+import ContactForm from './Contact'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -56,9 +57,7 @@ function Home() {
                 </div>  
             </Parallax>
 
-            <div>
-
-            </div>
+            <ContactForm />
         </div>
     )
 }

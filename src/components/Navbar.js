@@ -19,10 +19,12 @@ function NavComponent() {
   }
 
   return (
-    <Navbar expand="lg" className="bg-primary navbar-custom">
+    <div>
+    <Navbar expand="lg" className="bg-primary fixed-top">
       <Container>
         <Navbar.Brand className='navbar-brand' style={{color:"white", fontSize: "30px", fontWeight: "700" }}>
-          <StorefrontIcon style={{ fontSize: '40px'}} /> eSHop</Navbar.Brand>
+          <StorefrontIcon style={{ fontSize: '40px'}} /> eSHop</Navbar.Brand>   
+          
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: "white"}} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -30,24 +32,29 @@ function NavComponent() {
             <Nav.Link href="#link"></Nav.Link>
             
           </Nav>
-
+          
           <Nav className="d-flex">
             <Nav.Link ><Link to='/' style={{color:"white", fontSize: "22px", textDecoration: 'none'}}>Home</Link></Nav.Link>
             <Nav.Link ><Link to='/products' style={{color:"white", fontSize: "22px", textDecoration: 'none'}}>Products</Link></Nav.Link>
-            <Nav.Link href="#contact" style={{color:"white", fontSize: "22px"}} >Contact</Nav.Link>
+            <Nav.Link><Link to='/contact' style={{color:"white", fontSize: "22px"}} >Contact</Link></Nav.Link>
             <Nav.Link ><Link to='/cart' style={{color:"white", fontSize: "22px", textDecoration: 'none'}}>
-              <ShoppingCartIcon style={{ fontSize: '30px' }} />
-              <div className='amount-container'>
-                <p className='total-amount'>{getTotalQuantity() || 0}</p>
+                <ShoppingCartIcon style={{ fontSize: '30px' }} />
+                <div className='amount-container'>
+                  <p className='total-amount'>{getTotalQuantity() || 0}</p>
 
-              </div>
+                </div>
               </Link></Nav.Link>
 
             
           </Nav>
+          
         </Navbar.Collapse>
+        
       </Container>
     </Navbar>
+
+
+    </div>
   );
 }
 

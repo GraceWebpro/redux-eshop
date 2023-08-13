@@ -6,6 +6,7 @@ import Cart from './components/cart/Cart';
 import Products from './components/Products';
 import NavComponent from './components/Navbar';
 import Footer from './components/Footer';
+//import Nav from './components/Nav'
 //import { ParallaxProvider } from 'react-scroll-parallax';
 
 
